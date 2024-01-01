@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to run solutions server
+
+In order to get a random word from the list of words, you need to run the solutions server.
+
+```bash
+npm run solutions-server
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
