@@ -1,4 +1,5 @@
-import {useEffect, useState} from "react"
+import { useEffect, useState } from 'react'
+import Eldrow from './components/Eldrow'
 
 function App() {
   const [solution, setSolution] = useState(null)
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
         <h1>Eldrow</h1>
-        {solution && <div>Solution is: {solution}</div>}
+        {solution && <Eldrow solution={solution} />}
     </div>
   )
 }
